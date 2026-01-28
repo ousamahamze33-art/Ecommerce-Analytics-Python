@@ -36,7 +36,31 @@ The dataset includes anonymized shopper information:
 ├── README.md                       # This project description
 └── sample_data.csv (optional)     # Small sample CSV (<1MB) for testing without full dataset
 
-Key Analyses & Visualizations
+##Key Visualizations & Insights
+
+Age Distribution: “Majority of shoppers are aged 30–50, indicating a strong presence of mid-age consumers in the dataset.”
+
+Income Distribution: “Most users earn between $20k–$100k, but a small segment exceeds $150k, representing high-value customers.”
+
+Monthly Spend Distribution: “A large portion of users spend under $50k monthly, while top 10% of spenders account for a disproportionate share of revenue.”
+
+Gender Count: “Female users slightly outnumber males, with non-binary and other genders present but minimal.”
+
+Top 10 Countries: “USA, Japan, Germany, and France dominate the dataset, covering over 60% of users.”
+
+% With Children by Urban/Rural: “Suburban users are more likely to have children (approx. 55%), whereas urban users have fewer (around 45%).”
+
+Monthly Spend Regression: “Predicted monthly spend closely matches actual spend, with some high-spending outliers slightly underestimated by the model.”
+
+Average Order Value Regression: “Model captures trends well; users with frequent purchases tend to have higher average order values, and predictions align with actual values.”
+
+Has Children Logistic Regression: “Probability predictions show clear separation; age and relationship status strongly influence likelihood of having children.”
+
+Has Children Confusion Matrix: “Model correctly classifies about 65% of users with children and 70% without, indicating moderate predictive performance.”
+
+Customer Segmentation (K-Means + PCA): “Four distinct shopper clusters emerge: low-spend casual shoppers, mid-spend regular buyers, high-spend loyal customers, and occasional impulse buyers.”
+
+##Key Analyses & Visualizations
 
 Exploratory Data Analysis (EDA):
 
